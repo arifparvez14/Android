@@ -4,10 +4,10 @@ fun main() {
     println(list.getOrElse(10) { 42 })
 
     val map = mutableMapOf<String, Int?>()
-    println(map.getOrElse("x") { 1 })       // 1
+    println(map.getOrElse("x") { 1 })       
 
     map["x"] = 3
-    println(map.getOrElse("x") { 1 })       // 2
+    println(map.getOrElse("x") { 1 })       
 
     map["x"] = null
     println(map.getOrElse("x") { 1 }) 
