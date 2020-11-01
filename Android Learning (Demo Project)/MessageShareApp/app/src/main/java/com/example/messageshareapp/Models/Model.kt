@@ -1,9 +1,9 @@
-package com.example.messageshareapp
+package com.example.messageshareapp.Models
 
 data class Hobby(var title: String)
 
 object Supplier {
-    val hobbies = listOf<Hobby>(
+    val hobbies = listOf(
         Hobby("Swimming"),
         Hobby("Playing"),
         Hobby("Walking"),

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:padding="10dp">
+    android:padding="10dp"
+    tools:context=".activities.MainActivity">
 
     <Button
         android:id="@+id/btnShowToast"
@@ -14,19 +14,18 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="63dp"
-        android:text="Show Toast"
-        />
+        android:text="Show Toast" />
 
     <EditText
         android:id="@+id/setUserMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="165dp"
-        android:inputType="textPersonName"
-        android:hint="Enter your name" />
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btnSendMsgToNextActivity"
@@ -39,9 +38,9 @@
         android:id="@+id/btnShareToOtherApps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="167dp"
-        android:layout_alignParentBottom="true"
         android:text="Share to other App" />
 
     <Button

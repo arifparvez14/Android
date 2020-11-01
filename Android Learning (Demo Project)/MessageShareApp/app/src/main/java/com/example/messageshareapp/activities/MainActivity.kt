@@ -1,9 +1,10 @@
-package com.example.messageshareapp
+package com.example.messageshareapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.messageshareapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         btnShareToOtherApps.setOnClickListener{
 
             val message: String = setUserMessage.text.toString()
-
             var intent = Intent()
             intent.action = Intent.ACTION_SEND
             intent.putExtra(Intent.EXTRA_TEXT, message)
