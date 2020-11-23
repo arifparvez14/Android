@@ -2,4 +2,16 @@
     <string name="app_name">AboutMe</string>
     <string name="name">Arif Parvez</string>
     <string name="yellow_star">Yellow Star Descriptions</string>
+    <string name="bio">Hi my name is Arif.
+        \n\nI am a software engineer.
+        \n\nIm working as a Software Engineer at ShareTrip.
+        \n\nIm working on iOS Platform.
+        \n\nI lived in Dhaka, Bangladesh.
+        \n\nI am very passionate about mobile development.
+        \n\nI loved to do code.
+        \n\nI also try to be a religious person, practicing muslim. I want to be a good man also.
+        \n\nLife is short, try to utilize it mostly. Be prepare for the next steps, be smart, be calculative, be hardworking and be passionate.
+    </string>
+    <string name="what_is_your_nickname">What is your Nickname</string>
+    <string name="done">Done</string>
 </resources>
